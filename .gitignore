@@ -1,0 +1,14 @@
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+__pycache__/
+test.html
+scraping/result/
+result/
+logs/
+*.sql
+.env
+venv/
+config.py
+/node_modules
