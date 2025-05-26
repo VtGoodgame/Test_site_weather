@@ -16,44 +16,44 @@
 
 # Установка (Windows)
 **1.Клонирование репозитория**
-```git clone https://github.com/VtGoodgame/Test_site_weather.git```
+- ```git clone https://github.com/VtGoodgame/Test_site_weather.git```
 **2.Переход в директорию `backend`**
 - ```cd .\backend\```
 **3.Создание виртуального окружения**
-```python -m venv venv```
+- ```python -m venv venv```
 **4.Активировать виртуальное окружение**
-```.\venv\Scripts\activate```
+- ```.\venv\Scripts\activate```
 **5.Установить зависимости из файла `requirements.txt`**
-```pip install -r requirements.txt```
+- ```pip install -r requirements.txt```
 **6.Запуск сервера осуществляется с помощью команды**
-```uvicorn main:app --reload```
+- ```uvicorn main:app --reload```
 
 **В отдельном терминале следует перейти в директорию `frontend`**
-```cd .\frontend\```
+- ```cd .\frontend\```
 **1.Выполнить установку зависимостей через**
-```npm install```
+- ```npm install```
 **2.Запустить локальный сервер разработки командой**
-```npm run serve```
+- ```npm run serve```
 
 После успешного запуска всех компонентов сайт становится доступен для  использования через браузер в локальной сети.
 
 ## Для создания и сборки Docker контейнера 
 **1.Переход в директорию `backend`**
-```cd .\backend\```
+- ```cd .\backend\```
 **2.Создать образ докер контейнера с помощью команды**
-```docker build -t backend-app -f .Dockerfile .```
+- ```docker build -t backend-app -f .Dockerfile .```
 **3.Выполнить сборку контейнера**
-```docker run -d -p 8000:8000 --name backend-container backend-app```
+- ```docker run -d -p 8000:8000 --name backend-container backend-app```
 **4.Проверка запущенных контейнеров**
-```docker ps```
+- ```docker ps```
 
 _После проверки работоспособности следует выполнить команды_
 **1.Остановка работы контейнера**
-```docker stop backend-container```
+- ```docker stop backend-container```
 **2.Удаление контейнера**
-```docker rm backend-container```
+- ```docker rm backend-container```
 **3.Удаление образа **
-```docker rmi backend-app```
+- ```docker rmi backend-app```
 
 
 
