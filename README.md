@@ -56,7 +56,7 @@ pip install -r requirements.txt
  uvicorn main:app --reload
 ```
 
-**В отдельном терминале следует перейти в директорию `frontend`**
+- **В отдельном терминале следует перейти в директорию `frontend`**
 ```bash
 cd .\frontend\
 ```
