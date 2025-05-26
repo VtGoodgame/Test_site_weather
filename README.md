@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python" />
   <img src="https://img.shields.io/badge/FastAPI-0.100-green?style=for-the-badge&logo=fastapi" />
 </p>
----
+
 # 🚀 Тестовое задание Weather | FastAPI
 
 ## Описание
