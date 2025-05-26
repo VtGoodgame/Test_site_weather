@@ -16,9 +16,9 @@
 
 # Установка (Windows)
 **1.Клонирование репозитория**
--```git clone https://github.com/VtGoodgame/Test_site_weather.git```
+```git clone https://github.com/VtGoodgame/Test_site_weather.git```
 **2.Переход в директорию `backend`**
--```cd .\backend\```
+- ```cd .\backend\```
 **3.Создание виртуального окружения**
 ```python -m venv venv```
 **4.Активировать виртуальное окружение**
